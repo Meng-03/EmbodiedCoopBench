@@ -1,0 +1,131 @@
+{
+  "request_count": 1,
+  "bundles": [
+    {
+      "bundle_id": "req1_restaurant_serving_sum01_bundle_000000",
+      "request_count": 1,
+      "request_ids": [
+        "req_restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg00_toast01_req1_restaurant_serving_sum01_bundle_000000_req01"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg00_toast01_req1_restaurant_serving_sum01_bundle_000000_req01",
+          "instance_id": "restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg00_toast01_req1_restaurant_serving_sum01_bundle_000000_req01",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 0,
+            "breadsliced": 1
+          },
+          "order": {
+            "fried_egg_count": 0,
+            "toast_count": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive restaurant serving requests:\nServing request: need 0 fried egg(s), need 1 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg00_toast01_req1_restaurant_serving_sum01_bundle_000000_req01",
+      "bundle_total_active_objects": 1,
+      "bundle_total_pddl_plan_length": 6,
+      "bundle_total_active_objects_type": {
+        "breadsliced": 1,
+        "egg": 0
+      },
+      "bundle_total_order": {
+        "fried_egg_count": 0,
+        "toast_count": 1
+      },
+      "shared_scene_runtime": true,
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 1,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req1_restaurant_serving_sum06_bundle_000000",
+      "request_count": 1,
+      "request_ids": [
+        "req_restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg03_toast03_req1_restaurant_serving_sum06_bundle_000000_req01"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg03_toast03_req1_restaurant_serving_sum06_bundle_000000_req01",
+          "instance_id": "restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg03_toast03_req1_restaurant_serving_sum06_bundle_000000_req01",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 6,
+          "pddl_plan_length": 36,
+          "total_active_objects_type": {
+            "egg": 3,
+            "breadsliced": 3
+          },
+          "order": {
+            "fried_egg_count": 3,
+            "toast_count": 3
+          }
+        }
+      ],
+      "combined_request_text": "You receive restaurant serving requests:\nServing request: need 3 fried egg(s), need 3 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan11_countertop_10egg_1bread_egg03_toast03_req1_restaurant_serving_sum06_bundle_000000_req01",
+      "bundle_total_active_objects": 6,
+      "bundle_total_pddl_plan_length": 36,
+      "bundle_total_active_objects_type": {
+        "breadsliced": 3,
+        "egg": 3
+      },
+      "bundle_total_order": {
+        "fried_egg_count": 3,
+        "toast_count": 3
+      },
+      "shared_scene_runtime": true,
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 1,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req1_restaurant_serving_sum09_bundle_000000",
+      "request_count": 1,
+      "request_ids": [
+        "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg05_toast04_req1_restaurant_serving_sum09_bundle_000000_req01"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg05_toast04_req1_restaurant_serving_sum09_bundle_000000_req01",
+          "instance_id": "restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg05_toast04_req1_restaurant_serving_sum09_bundle_000000_req01",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 9,
+          "pddl_plan_length": 54,
+          "total_active_objects_type": {
+            "egg": 5,
+            "breadsliced": 4
+          },
+          "order": {
+            "fried_egg_count": 5,
+            "toast_count": 4
+          }
+        }
+      ],
+      "combined_request_text": "You receive restaurant serving requests:\nServing request: need 5 fried egg(s), need 4 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg05_toast04_req1_restaurant_serving_sum09_bundle_000000_req01",
+      "bundle_total_active_objects": 9,
+      "bundle_total_pddl_plan_length": 54,
+      "bundle_total_active_objects_type": {
+        "breadsliced": 4,
+        "egg": 5
+      },
+      "bundle_total_order": {
+        "fried_egg_count": 5,
+        "toast_count": 4
+      },
+      "shared_scene_runtime": true,
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 1,
+      "bundle_room_repeat_count": 0
+    }
+  ]
+}

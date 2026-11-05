@@ -1,0 +1,164 @@
+{
+  "request_count": 2,
+  "bundles": [
+    {
+      "request_count": 2,
+      "request_ids": [
+        "req_bathroom_FloorPlan405_2859",
+        "req_bathroom_FloorPlan406_3167"
+      ],
+      "requests": [
+        {
+          "request_id": "req_bathroom_FloorPlan405_2859",
+          "instance_id": "bathroom_FloorPlan405_2859",
+          "scene_name": "FloorPlan405",
+          "room_id": "405",
+          "total_active_objects": 6,
+          "pddl_plan_length": 26,
+          "total_active_objects_type": {
+            "toilet": 1,
+            "toiletpaper": 2,
+            "showercurtain": 1,
+            "sink": 1,
+            "handtowel": 1
+          }
+        },
+        {
+          "request_id": "req_bathroom_FloorPlan406_3167",
+          "instance_id": "bathroom_FloorPlan406_3167",
+          "scene_name": "FloorPlan406",
+          "room_id": "406",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "toilet": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple housekeeping requests simultaneously:\nRoom 405 request_id=req_bathroom_FloorPlan405_2859 \nRoom 406 request_id=req_bathroom_FloorPlan406_3167 ",
+      "bundle_total_active_objects": 7,
+      "bundle_total_pddl_plan_length": 32,
+      "bundle_total_active_objects_type": {
+        "handtowel": 1,
+        "showercurtain": 1,
+        "sink": 1,
+        "toilet": 2,
+        "toiletpaper": 2
+      },
+      "bundle_active_spread": 5,
+      "bundle_active_diversity_score": 2.5,
+      "bundle_distinct_room_count": 2,
+      "bundle_room_repeat_count": 0,
+      "bundle_id": "req2_sum7_bundle_000001"
+    },
+    {
+      "request_count": 2,
+      "request_ids": [
+        "req_bathroom_FloorPlan413_1175",
+        "req_bathroom_FloorPlan414_1409"
+      ],
+      "requests": [
+        {
+          "request_id": "req_bathroom_FloorPlan413_1175",
+          "instance_id": "bathroom_FloorPlan413_1175",
+          "scene_name": "FloorPlan413",
+          "room_id": "413",
+          "total_active_objects": 5,
+          "pddl_plan_length": 22,
+          "total_active_objects_type": {
+            "toilet": 1,
+            "bathtub": 1,
+            "cloth": 1,
+            "soapbar": 1,
+            "soapbottle": 1
+          }
+        },
+        {
+          "request_id": "req_bathroom_FloorPlan414_1409",
+          "instance_id": "bathroom_FloorPlan414_1409",
+          "scene_name": "FloorPlan414",
+          "room_id": "414",
+          "total_active_objects": 3,
+          "pddl_plan_length": 12,
+          "total_active_objects_type": {
+            "toilet": 1,
+            "sink": 1,
+            "soapbottle": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple housekeeping requests simultaneously:\nRoom 413 request_id=req_bathroom_FloorPlan413_1175 \nRoom 414 request_id=req_bathroom_FloorPlan414_1409 ",
+      "bundle_total_active_objects": 8,
+      "bundle_total_pddl_plan_length": 34,
+      "bundle_total_active_objects_type": {
+        "bathtub": 1,
+        "cloth": 1,
+        "sink": 1,
+        "soapbar": 1,
+        "soapbottle": 2,
+        "toilet": 2
+      },
+      "bundle_active_spread": 2,
+      "bundle_active_diversity_score": 1.0,
+      "bundle_distinct_room_count": 2,
+      "bundle_room_repeat_count": 0,
+      "bundle_id": "req2_sum8_bundle_000005"
+    },
+    {
+      "request_count": 2,
+      "request_ids": [
+        "req_bathroom_FloorPlan408_2612",
+        "req_bathroom_FloorPlan406_3167"
+      ],
+      "requests": [
+        {
+          "request_id": "req_bathroom_FloorPlan408_2612",
+          "instance_id": "bathroom_FloorPlan408_2612",
+          "scene_name": "FloorPlan408",
+          "room_id": "408",
+          "total_active_objects": 9,
+          "pddl_plan_length": 37,
+          "total_active_objects_type": {
+            "toilet": 1,
+            "toiletpaper": 2,
+            "showercurtain": 1,
+            "bathtub": 1,
+            "cloth": 1,
+            "soapbar": 1,
+            "soapbottle": 1,
+            "mirror": 1
+          }
+        },
+        {
+          "request_id": "req_bathroom_FloorPlan406_3167",
+          "instance_id": "bathroom_FloorPlan406_3167",
+          "scene_name": "FloorPlan406",
+          "room_id": "406",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "toilet": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple housekeeping requests simultaneously:\nRoom 408 request_id=req_bathroom_FloorPlan408_2612 \nRoom 406 request_id=req_bathroom_FloorPlan406_3167 ",
+      "bundle_total_active_objects": 10,
+      "bundle_total_pddl_plan_length": 43,
+      "bundle_total_active_objects_type": {
+        "bathtub": 1,
+        "cloth": 1,
+        "mirror": 1,
+        "showercurtain": 1,
+        "soapbar": 1,
+        "soapbottle": 1,
+        "toilet": 2,
+        "toiletpaper": 2
+      },
+      "bundle_active_spread": 8,
+      "bundle_active_diversity_score": 4.0,
+      "bundle_distinct_room_count": 2,
+      "bundle_room_repeat_count": 0,
+      "bundle_id": "req2_sum10_bundle_000003"
+    }
+  ]
+}

@@ -1,0 +1,2363 @@
+{
+  "FloorPlan201": [
+    {
+      "instance_id": "facility_inspection_FloorPlan201_active1",
+      "scene_name": "FloorPlan201",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.27|+00.70|+03.61",
+        "floorlamp1": "FloorLamp|-00.57|+00.00|+00.02",
+        "laptop1": "Laptop|-01.70|+00.68|+01.66",
+        "lightswitch1": "LightSwitch|-03.31|+01.34|-00.32",
+        "television1": "Television|-02.36|+01.21|+06.24",
+        "remotecontrol1": "RemoteControl|-02.58|+00.74|-00.15",
+        "sofa1": "Sofa|-02.40|00.00|+03.42"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.40|00.00|+03.42"
+        },
+        {
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "forceAction": true
+        },
+        {
+          "action": "CloseObject",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "forceAction": true
+        },
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.27|+00.70|+03.61": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.57|+00.00|+00.02": {
+          "isToggled": false
+        },
+        "Laptop|-01.70|+00.68|+01.66": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.31|+01.34|-00.32": {
+          "isToggled": false
+        },
+        "Television|-02.36|+01.21|+06.24": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        }
+      ],
+      "pddl_plan_length": 2,
+      "total_active_objects": 1,
+      "total_active_objects_type": {
+        "desklamp": 1
+      },
+      "active_devices": [
+        "desklamp1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan201_active2",
+      "scene_name": "FloorPlan201",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.27|+00.70|+03.61",
+        "floorlamp1": "FloorLamp|-00.57|+00.00|+00.02",
+        "laptop1": "Laptop|-01.70|+00.68|+01.66",
+        "lightswitch1": "LightSwitch|-03.31|+01.34|-00.32",
+        "television1": "Television|-02.36|+01.21|+06.24",
+        "remotecontrol1": "RemoteControl|-02.58|+00.74|-00.15",
+        "sofa1": "Sofa|-02.40|00.00|+03.42"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.40|00.00|+03.42"
+        },
+        {
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "CloseObject",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "forceAction": true
+        },
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.27|+00.70|+03.61": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.57|+00.00|+00.02": {
+          "isToggled": false
+        },
+        "Laptop|-01.70|+00.68|+01.66": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.31|+01.34|-00.32": {
+          "isToggled": false
+        },
+        "Television|-02.36|+01.21|+06.24": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        }
+      ],
+      "pddl_plan_length": 4,
+      "total_active_objects": 2,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan201_active3",
+      "scene_name": "FloorPlan201",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.27|+00.70|+03.61",
+        "floorlamp1": "FloorLamp|-00.57|+00.00|+00.02",
+        "laptop1": "Laptop|-01.70|+00.68|+01.66",
+        "lightswitch1": "LightSwitch|-03.31|+01.34|-00.32",
+        "television1": "Television|-02.36|+01.21|+06.24",
+        "remotecontrol1": "RemoteControl|-02.58|+00.74|-00.15",
+        "sofa1": "Sofa|-02.40|00.00|+03.42"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.40|00.00|+03.42"
+        },
+        {
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.27|+00.70|+03.61": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.57|+00.00|+00.02": {
+          "isToggled": false
+        },
+        "Laptop|-01.70|+00.68|+01.66": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.31|+01.34|-00.32": {
+          "isToggled": false
+        },
+        "Television|-02.36|+01.21|+06.24": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        }
+      ],
+      "pddl_plan_length": 6,
+      "total_active_objects": 3,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan201_active4",
+      "scene_name": "FloorPlan201",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.27|+00.70|+03.61",
+        "floorlamp1": "FloorLamp|-00.57|+00.00|+00.02",
+        "laptop1": "Laptop|-01.70|+00.68|+01.66",
+        "lightswitch1": "LightSwitch|-03.31|+01.34|-00.32",
+        "television1": "Television|-02.36|+01.21|+06.24",
+        "remotecontrol1": "RemoteControl|-02.58|+00.74|-00.15",
+        "sofa1": "Sofa|-02.40|00.00|+03.42"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.40|00.00|+03.42"
+        },
+        {
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.27|+00.70|+03.61": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.57|+00.00|+00.02": {
+          "isToggled": false
+        },
+        "Laptop|-01.70|+00.68|+01.66": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.31|+01.34|-00.32": {
+          "isToggled": false
+        },
+        "Television|-02.36|+01.21|+06.24": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_original": "(navigate robot1 laptop1-pos lightswitch1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_original": "(toggle-off robot1 lightswitch1 lightswitch1-pos)"
+        }
+      ],
+      "pddl_plan_length": 8,
+      "total_active_objects": 4,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1",
+        "lightswitch1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan201_active5",
+      "scene_name": "FloorPlan201",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.27|+00.70|+03.61",
+        "floorlamp1": "FloorLamp|-00.57|+00.00|+00.02",
+        "laptop1": "Laptop|-01.70|+00.68|+01.66",
+        "lightswitch1": "LightSwitch|-03.31|+01.34|-00.32",
+        "television1": "Television|-02.36|+01.21|+06.24",
+        "remotecontrol1": "RemoteControl|-02.58|+00.74|-00.15",
+        "sofa1": "Sofa|-02.40|00.00|+03.42"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.40|00.00|+03.42"
+        },
+        {
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOn",
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-02.58|+00.74|-00.15",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.40|00.00|+03.42",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.27|+00.70|+03.61": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.57|+00.00|+00.02": {
+          "isToggled": false
+        },
+        "Laptop|-01.70|+00.68|+01.66": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.31|+01.34|-00.32": {
+          "isToggled": false
+        },
+        "Television|-02.36|+01.21|+06.24": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.27|+00.70|+03.61",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.57|+00.00|+00.02",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-01.70|+00.68|+01.66",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_original": "(navigate robot1 laptop1-pos lightswitch1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "LightSwitch|-03.31|+01.34|-00.32",
+          "pddl_original": "(toggle-off robot1 lightswitch1 lightswitch1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_original": "(navigate robot1 lightswitch1-pos television1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "Television|-02.36|+01.21|+06.24",
+          "pddl_original": "(toggle-off robot1 television1 television1-pos)"
+        }
+      ],
+      "pddl_plan_length": 10,
+      "total_active_objects": 5,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1,
+        "television": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1",
+        "lightswitch1",
+        "television1"
+      ]
+    }
+  ],
+  "FloorPlan205": [
+    {
+      "instance_id": "facility_inspection_FloorPlan205_active1",
+      "scene_name": "FloorPlan205",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.26|+00.61|+03.31",
+        "floorlamp1": "FloorLamp|-04.72|00.00|+03.69",
+        "laptop1": "Laptop|-01.68|+00.74|+01.49",
+        "lightswitch1": "LightSwitch|-03.48|+01.47|+00.00",
+        "television1": "Television|-03.19|+01.18|+06.77",
+        "remotecontrol1": "RemoteControl|-03.73|+00.70|+06.77",
+        "sofa1": "Sofa|-04.43|+00.01|+05.06"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-04.43|+00.01|+05.06"
+        },
+        {
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "forceAction": true
+        },
+        {
+          "action": "CloseObject",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "forceAction": true
+        },
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.26|+00.61|+03.31": {
+          "isToggled": false
+        },
+        "FloorLamp|-04.72|00.00|+03.69": {
+          "isToggled": false
+        },
+        "Laptop|-01.68|+00.74|+01.49": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.48|+01.47|+00.00": {
+          "isToggled": false
+        },
+        "Television|-03.19|+01.18|+06.77": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        }
+      ],
+      "pddl_plan_length": 2,
+      "total_active_objects": 1,
+      "total_active_objects_type": {
+        "desklamp": 1
+      },
+      "active_devices": [
+        "desklamp1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan205_active2",
+      "scene_name": "FloorPlan205",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.26|+00.61|+03.31",
+        "floorlamp1": "FloorLamp|-04.72|00.00|+03.69",
+        "laptop1": "Laptop|-01.68|+00.74|+01.49",
+        "lightswitch1": "LightSwitch|-03.48|+01.47|+00.00",
+        "television1": "Television|-03.19|+01.18|+06.77",
+        "remotecontrol1": "RemoteControl|-03.73|+00.70|+06.77",
+        "sofa1": "Sofa|-04.43|+00.01|+05.06"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-04.43|+00.01|+05.06"
+        },
+        {
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "CloseObject",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "forceAction": true
+        },
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.26|+00.61|+03.31": {
+          "isToggled": false
+        },
+        "FloorLamp|-04.72|00.00|+03.69": {
+          "isToggled": false
+        },
+        "Laptop|-01.68|+00.74|+01.49": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.48|+01.47|+00.00": {
+          "isToggled": false
+        },
+        "Television|-03.19|+01.18|+06.77": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        }
+      ],
+      "pddl_plan_length": 4,
+      "total_active_objects": 2,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan205_active3",
+      "scene_name": "FloorPlan205",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.26|+00.61|+03.31",
+        "floorlamp1": "FloorLamp|-04.72|00.00|+03.69",
+        "laptop1": "Laptop|-01.68|+00.74|+01.49",
+        "lightswitch1": "LightSwitch|-03.48|+01.47|+00.00",
+        "television1": "Television|-03.19|+01.18|+06.77",
+        "remotecontrol1": "RemoteControl|-03.73|+00.70|+06.77",
+        "sofa1": "Sofa|-04.43|+00.01|+05.06"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-04.43|+00.01|+05.06"
+        },
+        {
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.26|+00.61|+03.31": {
+          "isToggled": false
+        },
+        "FloorLamp|-04.72|00.00|+03.69": {
+          "isToggled": false
+        },
+        "Laptop|-01.68|+00.74|+01.49": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.48|+01.47|+00.00": {
+          "isToggled": false
+        },
+        "Television|-03.19|+01.18|+06.77": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        }
+      ],
+      "pddl_plan_length": 6,
+      "total_active_objects": 3,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan205_active4",
+      "scene_name": "FloorPlan205",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.26|+00.61|+03.31",
+        "floorlamp1": "FloorLamp|-04.72|00.00|+03.69",
+        "laptop1": "Laptop|-01.68|+00.74|+01.49",
+        "lightswitch1": "LightSwitch|-03.48|+01.47|+00.00",
+        "television1": "Television|-03.19|+01.18|+06.77",
+        "remotecontrol1": "RemoteControl|-03.73|+00.70|+06.77",
+        "sofa1": "Sofa|-04.43|+00.01|+05.06"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-04.43|+00.01|+05.06"
+        },
+        {
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.26|+00.61|+03.31": {
+          "isToggled": false
+        },
+        "FloorLamp|-04.72|00.00|+03.69": {
+          "isToggled": false
+        },
+        "Laptop|-01.68|+00.74|+01.49": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.48|+01.47|+00.00": {
+          "isToggled": false
+        },
+        "Television|-03.19|+01.18|+06.77": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_original": "(navigate robot1 laptop1-pos lightswitch1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_original": "(toggle-off robot1 lightswitch1 lightswitch1-pos)"
+        }
+      ],
+      "pddl_plan_length": 8,
+      "total_active_objects": 4,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1",
+        "lightswitch1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan205_active5",
+      "scene_name": "FloorPlan205",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-00.26|+00.61|+03.31",
+        "floorlamp1": "FloorLamp|-04.72|00.00|+03.69",
+        "laptop1": "Laptop|-01.68|+00.74|+01.49",
+        "lightswitch1": "LightSwitch|-03.48|+01.47|+00.00",
+        "television1": "Television|-03.19|+01.18|+06.77",
+        "remotecontrol1": "RemoteControl|-03.73|+00.70|+06.77",
+        "sofa1": "Sofa|-04.43|+00.01|+05.06"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-04.43|+00.01|+05.06"
+        },
+        {
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOn",
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-03.73|+00.70|+06.77",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-04.43|+00.01|+05.06",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-00.26|+00.61|+03.31": {
+          "isToggled": false
+        },
+        "FloorLamp|-04.72|00.00|+03.69": {
+          "isToggled": false
+        },
+        "Laptop|-01.68|+00.74|+01.49": {
+          "isOpen": false
+        },
+        "LightSwitch|-03.48|+01.47|+00.00": {
+          "isToggled": false
+        },
+        "Television|-03.19|+01.18|+06.77": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-00.26|+00.61|+03.31",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-04.72|00.00|+03.69",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-01.68|+00.74|+01.49",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_original": "(navigate robot1 laptop1-pos lightswitch1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "LightSwitch|-03.48|+01.47|+00.00",
+          "pddl_original": "(toggle-off robot1 lightswitch1 lightswitch1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_original": "(navigate robot1 lightswitch1-pos television1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "Television|-03.19|+01.18|+06.77",
+          "pddl_original": "(toggle-off robot1 television1 television1-pos)"
+        }
+      ],
+      "pddl_plan_length": 10,
+      "total_active_objects": 5,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1,
+        "television": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1",
+        "lightswitch1",
+        "television1"
+      ]
+    }
+  ],
+  "FloorPlan210": [
+    {
+      "instance_id": "facility_inspection_FloorPlan210_active1",
+      "scene_name": "FloorPlan210",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-06.77|+00.41|-00.03",
+        "floorlamp1": "FloorLamp|-00.30|+00.01|-00.13",
+        "laptop1": "Laptop|-03.29|+00.48|+00.40",
+        "lightswitch1": "LightSwitch|-07.00|+01.36|+02.61",
+        "television1": "Television|-02.55|+01.58|+04.30",
+        "remotecontrol1": "RemoteControl|-04.12|+00.43|+01.21",
+        "sofa1": "Sofa|-02.52|+00.01|+00.26"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.52|+00.01|+00.26"
+        },
+        {
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "forceAction": true
+        },
+        {
+          "action": "CloseObject",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "forceAction": true
+        },
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-06.77|+00.41|-00.03": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.30|+00.01|-00.13": {
+          "isToggled": false
+        },
+        "Laptop|-03.29|+00.48|+00.40": {
+          "isOpen": false
+        },
+        "LightSwitch|-07.00|+01.36|+02.61": {
+          "isToggled": false
+        },
+        "Television|-02.55|+01.58|+04.30": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        }
+      ],
+      "pddl_plan_length": 2,
+      "total_active_objects": 1,
+      "total_active_objects_type": {
+        "desklamp": 1
+      },
+      "active_devices": [
+        "desklamp1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan210_active2",
+      "scene_name": "FloorPlan210",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-06.77|+00.41|-00.03",
+        "floorlamp1": "FloorLamp|-00.30|+00.01|-00.13",
+        "laptop1": "Laptop|-03.29|+00.48|+00.40",
+        "lightswitch1": "LightSwitch|-07.00|+01.36|+02.61",
+        "television1": "Television|-02.55|+01.58|+04.30",
+        "remotecontrol1": "RemoteControl|-04.12|+00.43|+01.21",
+        "sofa1": "Sofa|-02.52|+00.01|+00.26"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.52|+00.01|+00.26"
+        },
+        {
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "CloseObject",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "forceAction": true
+        },
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-06.77|+00.41|-00.03": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.30|+00.01|-00.13": {
+          "isToggled": false
+        },
+        "Laptop|-03.29|+00.48|+00.40": {
+          "isOpen": false
+        },
+        "LightSwitch|-07.00|+01.36|+02.61": {
+          "isToggled": false
+        },
+        "Television|-02.55|+01.58|+04.30": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        }
+      ],
+      "pddl_plan_length": 4,
+      "total_active_objects": 2,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan210_active3",
+      "scene_name": "FloorPlan210",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-06.77|+00.41|-00.03",
+        "floorlamp1": "FloorLamp|-00.30|+00.01|-00.13",
+        "laptop1": "Laptop|-03.29|+00.48|+00.40",
+        "lightswitch1": "LightSwitch|-07.00|+01.36|+02.61",
+        "television1": "Television|-02.55|+01.58|+04.30",
+        "remotecontrol1": "RemoteControl|-04.12|+00.43|+01.21",
+        "sofa1": "Sofa|-02.52|+00.01|+00.26"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.52|+00.01|+00.26"
+        },
+        {
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOff",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-06.77|+00.41|-00.03": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.30|+00.01|-00.13": {
+          "isToggled": false
+        },
+        "Laptop|-03.29|+00.48|+00.40": {
+          "isOpen": false
+        },
+        "LightSwitch|-07.00|+01.36|+02.61": {
+          "isToggled": false
+        },
+        "Television|-02.55|+01.58|+04.30": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        }
+      ],
+      "pddl_plan_length": 6,
+      "total_active_objects": 3,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan210_active4",
+      "scene_name": "FloorPlan210",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-06.77|+00.41|-00.03",
+        "floorlamp1": "FloorLamp|-00.30|+00.01|-00.13",
+        "laptop1": "Laptop|-03.29|+00.48|+00.40",
+        "lightswitch1": "LightSwitch|-07.00|+01.36|+02.61",
+        "television1": "Television|-02.55|+01.58|+04.30",
+        "remotecontrol1": "RemoteControl|-04.12|+00.43|+01.21",
+        "sofa1": "Sofa|-02.52|+00.01|+00.26"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": false
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.52|+00.01|+00.26"
+        },
+        {
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-06.77|+00.41|-00.03": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.30|+00.01|-00.13": {
+          "isToggled": false
+        },
+        "Laptop|-03.29|+00.48|+00.40": {
+          "isOpen": false
+        },
+        "LightSwitch|-07.00|+01.36|+02.61": {
+          "isToggled": false
+        },
+        "Television|-02.55|+01.58|+04.30": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_original": "(navigate robot1 laptop1-pos lightswitch1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_original": "(toggle-off robot1 lightswitch1 lightswitch1-pos)"
+        }
+      ],
+      "pddl_plan_length": 8,
+      "total_active_objects": 4,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1",
+        "lightswitch1"
+      ]
+    },
+    {
+      "instance_id": "facility_inspection_FloorPlan210_active5",
+      "scene_name": "FloorPlan210",
+      "id_mapping": {
+        "desklamp1": "DeskLamp|-06.77|+00.41|-00.03",
+        "floorlamp1": "FloorLamp|-00.30|+00.01|-00.13",
+        "laptop1": "Laptop|-03.29|+00.48|+00.40",
+        "lightswitch1": "LightSwitch|-07.00|+01.36|+02.61",
+        "television1": "Television|-02.55|+01.58|+04.30",
+        "remotecontrol1": "RemoteControl|-04.12|+00.43|+01.21",
+        "sofa1": "Sofa|-02.52|+00.01|+00.26"
+      },
+      "init_setup": [
+        {
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_inst": "desklamp1",
+          "objectType": "desklamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_inst": "floorlamp1",
+          "objectType": "floorlamp",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_inst": "laptop1",
+          "objectType": "laptop",
+          "target_states": {
+            "isOpen": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_inst": "lightswitch1",
+          "objectType": "lightswitch",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_inst": "television1",
+          "objectType": "television",
+          "target_states": {
+            "isToggled": true
+          },
+          "parent_objectId": null
+        },
+        {
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "pddl_inst": "remotecontrol1",
+          "objectType": "remotecontrol",
+          "target_states": {},
+          "parent_objectId": "Sofa|-02.52|+00.01|+00.26"
+        },
+        {
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "pddl_inst": "sofa1",
+          "objectType": "sofa",
+          "target_states": {},
+          "parent_objectId": null
+        }
+      ],
+      "init_setup_actions": [
+        {
+          "action": "ToggleObjectOn",
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "forceAction": true
+        },
+        {
+          "action": "PickupObject",
+          "objectId": "RemoteControl|-04.12|+00.43|+01.21",
+          "forceAction": true
+        },
+        {
+          "action": "PutObject",
+          "objectId": "Sofa|-02.52|+00.01|+00.26",
+          "forceAction": true
+        }
+      ],
+      "goal_verification": {
+        "DeskLamp|-06.77|+00.41|-00.03": {
+          "isToggled": false
+        },
+        "FloorLamp|-00.30|+00.01|-00.13": {
+          "isToggled": false
+        },
+        "Laptop|-03.29|+00.48|+00.40": {
+          "isOpen": false
+        },
+        "LightSwitch|-07.00|+01.36|+02.61": {
+          "isToggled": false
+        },
+        "Television|-02.55|+01.58|+04.30": {
+          "isToggled": false
+        },
+        "robot1": {
+          "handEmpty": true
+        }
+      },
+      "pddl_plan": [
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(navigate robot1 robot-pos desklamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "DeskLamp|-06.77|+00.41|-00.03",
+          "pddl_original": "(toggle-off robot1 desklamp1 desklamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(navigate robot1 desklamp1-pos floorlamp1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "FloorLamp|-00.30|+00.01|-00.13",
+          "pddl_original": "(toggle-off robot1 floorlamp1 floorlamp1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_original": "(navigate robot1 floorlamp1-pos laptop1-pos)"
+        },
+        {
+          "action": "CloseObject_thor",
+          "objectId": "Laptop|-03.29|+00.48|+00.40",
+          "pddl_original": "(close-device robot1 laptop1 laptop1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_original": "(navigate robot1 laptop1-pos lightswitch1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "LightSwitch|-07.00|+01.36|+02.61",
+          "pddl_original": "(toggle-off robot1 lightswitch1 lightswitch1-pos)"
+        },
+        {
+          "action": "NavigateTo_thor",
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_original": "(navigate robot1 lightswitch1-pos television1-pos)"
+        },
+        {
+          "action": "ToggleObjectOff_thor",
+          "objectId": "Television|-02.55|+01.58|+04.30",
+          "pddl_original": "(toggle-off robot1 television1 television1-pos)"
+        }
+      ],
+      "pddl_plan_length": 10,
+      "total_active_objects": 5,
+      "total_active_objects_type": {
+        "desklamp": 1,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1,
+        "television": 1
+      },
+      "active_devices": [
+        "desklamp1",
+        "floorlamp1",
+        "laptop1",
+        "lightswitch1",
+        "television1"
+      ]
+    }
+  ]
+}

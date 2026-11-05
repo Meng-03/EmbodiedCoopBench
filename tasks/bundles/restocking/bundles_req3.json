@@ -1,0 +1,1251 @@
+{
+  "request_count": 3,
+  "bundles": [
+    {
+      "bundle_id": "req3_restocking_sum03_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT1_appleF0",
+        "req_restocking_FloorPlan4_eggF0_breadT1_appleF0",
+        "req_restocking_FloorPlan11_eggF0_breadT1_appleF0"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT1_appleF0",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT1_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 7,
+          "total_active_objects_type": {
+            "bread": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 1,
+            "bread_in_cabinet": 1,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT1_appleF0",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT1_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 1,
+          "pddl_plan_length": 7,
+          "total_active_objects_type": {
+            "bread": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 1,
+            "bread_in_cabinet": 1,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT1_appleF0",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT1_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 1,
+          "pddl_plan_length": 7,
+          "total_active_objects_type": {
+            "bread": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 1,
+            "bread_in_cabinet": 1,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT1_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 1, 'bread_in_cabinet': 1, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT1_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 1, 'bread_in_cabinet': 1, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT1_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 1, 'bread_in_cabinet': 1, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})",
+      "bundle_total_active_objects": 3,
+      "bundle_total_pddl_plan_length": 21,
+      "bundle_total_active_objects_type": {
+        "bread": 3
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum04_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT1_appleF0",
+        "req_restocking_FloorPlan4_eggF0_breadT1_appleF0",
+        "req_restocking_FloorPlan11_eggF0_breadT0_appleF0"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT1_appleF0",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT1_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 7,
+          "total_active_objects_type": {
+            "bread": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 1,
+            "bread_in_cabinet": 1,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT1_appleF0",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT1_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 1,
+          "pddl_plan_length": 7,
+          "total_active_objects_type": {
+            "bread": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 1,
+            "bread_in_cabinet": 1,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT1_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 1, 'bread_in_cabinet': 1, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT1_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 1, 'bread_in_cabinet': 1, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})",
+      "bundle_total_active_objects": 4,
+      "bundle_total_pddl_plan_length": 25,
+      "bundle_total_active_objects_type": {
+        "bread": 4
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum05_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT1_appleF0",
+        "req_restocking_FloorPlan4_eggF0_breadT0_appleF0",
+        "req_restocking_FloorPlan11_eggF0_breadT0_appleF0"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT1_appleF0",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT1_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 7,
+          "total_active_objects_type": {
+            "bread": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 1,
+            "bread_in_cabinet": 1,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT1_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 1, 'bread_in_cabinet': 1, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})",
+      "bundle_total_active_objects": 5,
+      "bundle_total_pddl_plan_length": 29,
+      "bundle_total_active_objects_type": {
+        "bread": 5
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum06_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT0_appleF0",
+        "req_restocking_FloorPlan4_eggF0_breadT0_appleF0",
+        "req_restocking_FloorPlan11_eggF0_breadT0_appleF0"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})",
+      "bundle_total_active_objects": 6,
+      "bundle_total_pddl_plan_length": 33,
+      "bundle_total_active_objects_type": {
+        "bread": 6
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum07_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT0_appleF0",
+        "req_restocking_FloorPlan4_eggF0_breadT0_appleF0",
+        "req_restocking_FloorPlan11_eggF0_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 7,
+      "bundle_total_pddl_plan_length": 37,
+      "bundle_total_active_objects_type": {
+        "apple": 3,
+        "bread": 4
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum08_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT0_appleF0",
+        "req_restocking_FloorPlan4_eggF0_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF0_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT0_appleF0",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT0_appleF0",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 2,
+          "pddl_plan_length": 11,
+          "total_active_objects_type": {
+            "bread": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 0,
+            "bread_in_cabinet": 2,
+            "apple_in_fridge": 0,
+            "apple_in_diningtable": 3
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT0_appleF0 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 0, 'bread_in_cabinet': 2, 'apple_in_fridge': 0, 'apple_in_diningtable': 3})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 8,
+      "bundle_total_pddl_plan_length": 41,
+      "bundle_total_active_objects_type": {
+        "apple": 6,
+        "bread": 2
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum09_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF0_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF0_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 9,
+      "bundle_total_pddl_plan_length": 45,
+      "bundle_total_active_objects_type": {
+        "apple": 9
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum10_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF0_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF1_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 10,
+      "bundle_total_pddl_plan_length": 49,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 1
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum11_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF0_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF1_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF1_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF0_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF0_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 3,
+          "pddl_plan_length": 15,
+          "total_active_objects_type": {
+            "apple": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 0,
+            "egg_in_countertop": 5,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF0_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 0, 'egg_in_countertop': 5, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 11,
+      "bundle_total_pddl_plan_length": 53,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 2
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum12_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF1_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF1_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF1_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 12,
+      "bundle_total_pddl_plan_length": 57,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 3
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum13_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF1_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF1_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF2_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 13,
+      "bundle_total_pddl_plan_length": 61,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 4
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum14_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF1_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF2_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF2_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF1_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF1_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 4,
+          "pddl_plan_length": 19,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 1
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 1,
+            "egg_in_countertop": 4,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF1_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 1, 'egg_in_countertop': 4, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 14,
+      "bundle_total_pddl_plan_length": 65,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 5
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum15_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF2_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF2_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF2_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 15,
+      "bundle_total_pddl_plan_length": 69,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 6
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum16_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF2_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF2_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF3_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF3_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF3_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 6,
+          "pddl_plan_length": 27,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 3,
+            "egg_in_countertop": 2,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF3_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 3, 'egg_in_countertop': 2, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 16,
+      "bundle_total_pddl_plan_length": 73,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 7
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_restocking_sum17_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_restocking_FloorPlan28_eggF2_breadT2_appleF3",
+        "req_restocking_FloorPlan4_eggF3_breadT2_appleF3",
+        "req_restocking_FloorPlan11_eggF3_breadT2_appleF3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restocking_FloorPlan28_eggF2_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan28_eggF2_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 5,
+          "pddl_plan_length": 23,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 2
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 2,
+            "egg_in_countertop": 3,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan4_eggF3_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan4_eggF3_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan4",
+          "room_id": "4",
+          "total_active_objects": 6,
+          "pddl_plan_length": 27,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 3,
+            "egg_in_countertop": 2,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        },
+        {
+          "request_id": "req_restocking_FloorPlan11_eggF3_breadT2_appleF3",
+          "instance_id": "restocking_FloorPlan11_eggF3_breadT2_appleF3",
+          "scenario": "restocking",
+          "scene_name": "FloorPlan11",
+          "room_id": "11",
+          "total_active_objects": 6,
+          "pddl_plan_length": 27,
+          "total_active_objects_type": {
+            "apple": 3,
+            "egg": 3
+          },
+          "layout_parameters": {
+            "egg_in_fridge": 3,
+            "egg_in_countertop": 2,
+            "bread_in_diningtable": 2,
+            "bread_in_cabinet": 0,
+            "apple_in_fridge": 3,
+            "apple_in_diningtable": 0
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple inventory restocking requests simultaneously:\nRoom 28 request_id=req_restocking_FloorPlan28_eggF2_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 2, 'egg_in_countertop': 3, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 4 request_id=req_restocking_FloorPlan4_eggF3_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 3, 'egg_in_countertop': 2, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})\nRoom 11 request_id=req_restocking_FloorPlan11_eggF3_breadT2_appleF3 (restock goal: 5 eggs on countertop, 2 breads on diningtable, 3 apples on diningtable; initial split={'egg_in_fridge': 3, 'egg_in_countertop': 2, 'bread_in_diningtable': 2, 'bread_in_cabinet': 0, 'apple_in_fridge': 3, 'apple_in_diningtable': 0})",
+      "bundle_total_active_objects": 17,
+      "bundle_total_pddl_plan_length": 77,
+      "bundle_total_active_objects_type": {
+        "apple": 9,
+        "egg": 8
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    }
+  ]
+}

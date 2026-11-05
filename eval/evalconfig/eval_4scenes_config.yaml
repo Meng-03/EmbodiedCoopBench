@@ -1,0 +1,65 @@
+# EmbodiedCoop four-scene eval config.
+# Pass this file to eval/eval_embodiedcoop.py with --config-file.
+# Command-line arguments override values in this file.
+
+# Supported agent modes: embodiedcoop
+agent_mode: embodiedcoop
+
+# Supported scenes:
+# - hotel_housekeeping
+# - facility_inspection
+# - restaurant_serving
+# - restocking
+scene: hotel_housekeeping
+
+# Select one bundle id from tasks/manifest.json.
+# You can also override from CLI:
+#   --scene restocking --bundle-id req3_restocking_sum03_bundle_000000
+bundle_id: req1_bathroom_FloorPlan402_1221
+
+# Four-scene bundle metadata. eval_embodiedcoop.py reads this file to fill:
+# task_json, request_bundle_dir, request_bundle_file_prefix, robot_team_preset,
+# log_skill_name, request_type, active_skill, request_delivery_mode,
+# initial_request_count, request_injection_interval_rounds, and request_injection_batch_size.
+eval_bundles_file: tasks/manifest.json
+
+# Model and execution budget.
+model: gemini-3-flash-preview-high
+max_iterations: auto
+
+# Memory ablations.
+ablate_all_memory: false
+ablate_agent_memory: false
+
+# Available bundle ids by scene:
+# hotel_housekeeping:
+#   low:  req1_bathroom_FloorPlan402_1439, req1_bathroom_FloorPlan402_1221, req1_bathroom_FloorPlan405_1175, req2_sum7_bundle_000001, req2_sum8_bundle_000005
+#   mid:  req2_sum10_bundle_000003, req3_sum11_bundle_000003, req3_sum12_bundle_000001, req3_sum14_bundle_000009, req4_sum16_bundle_000019
+#   high: req4_sum18_bundle_000003, req4_sum20_bundle_000001, req5_sum22_bundle_000016, req5_sum24_bundle_000011, req5_sum28_bundle_000007
+# facility_inspection:
+#   low:  req3_facility_inspection_bundle_000000, req3_facility_inspection_bundle_000001, req3_facility_inspection_bundle_000015, req3_facility_inspection_bundle_000002, req3_facility_inspection_bundle_000003
+#   mid:  req3_facility_inspection_bundle_000004, req3_facility_inspection_bundle_000019, req3_facility_inspection_bundle_000034, req3_facility_inspection_bundle_000049, req3_facility_inspection_bundle_000064
+#   high: req3_facility_inspection_bundle_000214, req3_facility_inspection_bundle_000364, req3_facility_inspection_bundle_000514, req3_facility_inspection_bundle_000663, req3_facility_inspection_bundle_000664
+# restaurant_serving:
+#   low:  req1_restaurant_serving_sum01_bundle_000000, req2_restaurant_serving_sum02_bundle_000000, req3_restaurant_serving_sum03_bundle_000000, req4_restaurant_serving_sum04_bundle_000000, req5_restaurant_serving_sum05_bundle_000000
+#   mid:  req1_restaurant_serving_sum06_bundle_000000, req2_restaurant_serving_sum07_bundle_000000, req3_restaurant_serving_sum08_bundle_000000, req1_restaurant_serving_sum09_bundle_000000, req2_restaurant_serving_sum10_bundle_000000
+#   high: req3_restaurant_serving_sum11_bundle_000000, req4_restaurant_serving_sum12_bundle_000000, req5_restaurant_serving_sum13_bundle_000000, req5_restaurant_serving_sum14_bundle_000000, req4_restaurant_serving_sum15_bundle_000000
+# restocking:
+#   low:  req3_restocking_sum03_bundle_000000, req3_restocking_sum04_bundle_000000, req3_restocking_sum05_bundle_000000, req3_restocking_sum06_bundle_000000, req3_restocking_sum07_bundle_000000
+#   mid:  req3_restocking_sum08_bundle_000000, req3_restocking_sum09_bundle_000000, req3_restocking_sum10_bundle_000000, req3_restocking_sum11_bundle_000000, req3_restocking_sum12_bundle_000000
+#   high: req3_restocking_sum13_bundle_000000, req3_restocking_sum14_bundle_000000, req3_restocking_sum15_bundle_000000, req3_restocking_sum16_bundle_000000, req3_restocking_sum17_bundle_000000
+
+# Optional direct overrides, normally not needed because scene + bundle_id fill these fields:
+# task_json:
+# request_bundle_dir:
+# request_bundle_file_prefix:
+# request_bundle_count:
+# request_bundle_id:
+# robot_team_preset:
+# log_skill_name:
+# request_type:
+# active_skill:
+# request_delivery_mode:
+# initial_request_count:
+# request_injection_interval_rounds:
+# request_injection_batch_size:

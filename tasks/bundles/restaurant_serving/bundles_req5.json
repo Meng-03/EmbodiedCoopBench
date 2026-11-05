@@ -1,0 +1,347 @@
+{
+  "request_count": 5,
+  "bundles": [
+    {
+      "bundle_id": "req5_restaurant_serving_sum05_bundle_000000",
+      "request_count": 5,
+      "request_ids": [
+        "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req01",
+        "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req02",
+        "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req03",
+        "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req04",
+        "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req05"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req01",
+          "instance_id": "restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req01",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req02",
+          "instance_id": "restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req02",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req03",
+          "instance_id": "restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req03",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req04",
+          "instance_id": "restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req04",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 0,
+            "breadsliced": 1
+          },
+          "order": {
+            "fried_egg_count": 0,
+            "toast_count": 1
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req05",
+          "instance_id": "restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req05",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan28",
+          "room_id": "28",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 0,
+            "breadsliced": 1
+          },
+          "order": {
+            "fried_egg_count": 0,
+            "toast_count": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive restaurant serving requests:\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req01\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req02\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum05_bundle_000000_req03\nServing request: need 0 fried egg(s), need 1 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req04\nServing request: need 0 fried egg(s), need 1 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan28_countertop_10egg_1bread_egg00_toast01_req5_restaurant_serving_sum05_bundle_000000_req05",
+      "bundle_total_active_objects": 5,
+      "bundle_total_pddl_plan_length": 30,
+      "bundle_total_active_objects_type": {
+        "breadsliced": 2,
+        "egg": 3
+      },
+      "bundle_total_order": {
+        "fried_egg_count": 3,
+        "toast_count": 2
+      },
+      "shared_scene_runtime": true,
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 1,
+      "bundle_room_repeat_count": 4
+    },
+    {
+      "bundle_id": "req5_restaurant_serving_sum13_bundle_000000",
+      "request_count": 5,
+      "request_ids": [
+        "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req01",
+        "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req02",
+        "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req03",
+        "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req04",
+        "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg03_toast06_req5_restaurant_serving_sum13_bundle_000000_req05"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req01",
+          "instance_id": "restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req01",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan16",
+          "room_id": "16",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req02",
+          "instance_id": "restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req02",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan16",
+          "room_id": "16",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req03",
+          "instance_id": "restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req03",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan16",
+          "room_id": "16",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req04",
+          "instance_id": "restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req04",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan16",
+          "room_id": "16",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg03_toast06_req5_restaurant_serving_sum13_bundle_000000_req05",
+          "instance_id": "restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg03_toast06_req5_restaurant_serving_sum13_bundle_000000_req05",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan16",
+          "room_id": "16",
+          "total_active_objects": 9,
+          "pddl_plan_length": 54,
+          "total_active_objects_type": {
+            "egg": 3,
+            "breadsliced": 6
+          },
+          "order": {
+            "fried_egg_count": 3,
+            "toast_count": 6
+          }
+        }
+      ],
+      "combined_request_text": "You receive restaurant serving requests:\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req01\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req02\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req03\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum13_bundle_000000_req04\nServing request: need 3 fried egg(s), need 6 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan16_countertop_10egg_1bread_egg03_toast06_req5_restaurant_serving_sum13_bundle_000000_req05",
+      "bundle_total_active_objects": 13,
+      "bundle_total_pddl_plan_length": 78,
+      "bundle_total_active_objects_type": {
+        "breadsliced": 6,
+        "egg": 7
+      },
+      "bundle_total_order": {
+        "fried_egg_count": 7,
+        "toast_count": 6
+      },
+      "shared_scene_runtime": true,
+      "bundle_active_spread": 8,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 1,
+      "bundle_room_repeat_count": 4
+    },
+    {
+      "bundle_id": "req5_restaurant_serving_sum14_bundle_000000",
+      "request_count": 5,
+      "request_ids": [
+        "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req01",
+        "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req02",
+        "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req03",
+        "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req04",
+        "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg04_toast06_req5_restaurant_serving_sum14_bundle_000000_req05"
+      ],
+      "requests": [
+        {
+          "request_id": "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req01",
+          "instance_id": "restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req01",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan18",
+          "room_id": "18",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req02",
+          "instance_id": "restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req02",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan18",
+          "room_id": "18",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req03",
+          "instance_id": "restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req03",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan18",
+          "room_id": "18",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req04",
+          "instance_id": "restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req04",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan18",
+          "room_id": "18",
+          "total_active_objects": 1,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "egg": 1,
+            "breadsliced": 0
+          },
+          "order": {
+            "fried_egg_count": 1,
+            "toast_count": 0
+          }
+        },
+        {
+          "request_id": "req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg04_toast06_req5_restaurant_serving_sum14_bundle_000000_req05",
+          "instance_id": "restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg04_toast06_req5_restaurant_serving_sum14_bundle_000000_req05",
+          "scenario": "restaurant_serving",
+          "scene_name": "FloorPlan18",
+          "room_id": "18",
+          "total_active_objects": 10,
+          "pddl_plan_length": 60,
+          "total_active_objects_type": {
+            "egg": 4,
+            "breadsliced": 6
+          },
+          "order": {
+            "fried_egg_count": 4,
+            "toast_count": 6
+          }
+        }
+      ],
+      "combined_request_text": "You receive restaurant serving requests:\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req01\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req02\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req03\nServing request: need 1 fried egg(s), need 0 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg01_toast00_req5_restaurant_serving_sum14_bundle_000000_req04\nServing request: need 4 fried egg(s), need 6 slice(s) of toast. request_id=req_restaurant_serving_FloorPlan18_countertop_10egg_1bread_egg04_toast06_req5_restaurant_serving_sum14_bundle_000000_req05",
+      "bundle_total_active_objects": 14,
+      "bundle_total_pddl_plan_length": 84,
+      "bundle_total_active_objects_type": {
+        "breadsliced": 6,
+        "egg": 8
+      },
+      "bundle_total_order": {
+        "fried_egg_count": 8,
+        "toast_count": 6
+      },
+      "shared_scene_runtime": true,
+      "bundle_active_spread": 9,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 1,
+      "bundle_room_repeat_count": 4
+    }
+  ]
+}

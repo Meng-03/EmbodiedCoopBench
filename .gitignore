@@ -1,0 +1,15 @@
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyd
+
+# Local generation sources and candidate data are not benchmark release content.
+/gen/
+
+# Local credentials and generated run artifacts.
+.env
+.env.*
+!.env.example
+/logs/
+/outputs/
+.DS_Store

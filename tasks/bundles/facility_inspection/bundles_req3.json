@@ -1,0 +1,952 @@
+{
+  "request_count": 3,
+  "bundles": [
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000000",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active1",
+        "req_facility_inspection_FloorPlan210_active1"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active1",
+          "instance_id": "facility_inspection_FloorPlan205_active1",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active1",
+          "instance_id": "facility_inspection_FloorPlan210_active1",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active1 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active1 ",
+      "bundle_total_active_objects": 3,
+      "bundle_total_pddl_plan_length": 6,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000001",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active1",
+        "req_facility_inspection_FloorPlan210_active2"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active1",
+          "instance_id": "facility_inspection_FloorPlan205_active1",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active2",
+          "instance_id": "facility_inspection_FloorPlan210_active2",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 2,
+          "pddl_plan_length": 4,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active1 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active2 ",
+      "bundle_total_active_objects": 4,
+      "bundle_total_pddl_plan_length": 8,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 1
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000015",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active2",
+        "req_facility_inspection_FloorPlan210_active1"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active2",
+          "instance_id": "facility_inspection_FloorPlan205_active2",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 2,
+          "pddl_plan_length": 4,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active1",
+          "instance_id": "facility_inspection_FloorPlan210_active1",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active2 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active1 ",
+      "bundle_total_active_objects": 4,
+      "bundle_total_pddl_plan_length": 8,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 1
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000002",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active1",
+        "req_facility_inspection_FloorPlan210_active3"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active1",
+          "instance_id": "facility_inspection_FloorPlan205_active1",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active3",
+          "instance_id": "facility_inspection_FloorPlan210_active3",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 3,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active1 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active3 ",
+      "bundle_total_active_objects": 5,
+      "bundle_total_pddl_plan_length": 10,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 1,
+        "laptop": 1
+      },
+      "bundle_active_spread": 2,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000003",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active1",
+        "req_facility_inspection_FloorPlan210_active4"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active1",
+          "instance_id": "facility_inspection_FloorPlan205_active1",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active4",
+          "instance_id": "facility_inspection_FloorPlan210_active4",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 4,
+          "pddl_plan_length": 8,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active1 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active4 ",
+      "bundle_total_active_objects": 6,
+      "bundle_total_pddl_plan_length": 12,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1
+      },
+      "bundle_active_spread": 3,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000004",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active1",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active1",
+          "instance_id": "facility_inspection_FloorPlan205_active1",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active1 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 7,
+      "bundle_total_pddl_plan_length": 14,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 1,
+        "laptop": 1,
+        "lightswitch": 1,
+        "television": 1
+      },
+      "bundle_active_spread": 4,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000019",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active2",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active2",
+          "instance_id": "facility_inspection_FloorPlan205_active2",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 2,
+          "pddl_plan_length": 4,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active2 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 8,
+      "bundle_total_pddl_plan_length": 16,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 2,
+        "laptop": 1,
+        "lightswitch": 1,
+        "television": 1
+      },
+      "bundle_active_spread": 4,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000034",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active3",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active3",
+          "instance_id": "facility_inspection_FloorPlan205_active3",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 3,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active3 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 9,
+      "bundle_total_pddl_plan_length": 18,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 2,
+        "laptop": 2,
+        "lightswitch": 1,
+        "television": 1
+      },
+      "bundle_active_spread": 4,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000049",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active4",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active4",
+          "instance_id": "facility_inspection_FloorPlan205_active4",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 4,
+          "pddl_plan_length": 8,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active4 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 10,
+      "bundle_total_pddl_plan_length": 20,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 2,
+        "laptop": 2,
+        "lightswitch": 2,
+        "television": 1
+      },
+      "bundle_active_spread": 4,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000064",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active1",
+        "req_facility_inspection_FloorPlan205_active5",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active1",
+          "instance_id": "facility_inspection_FloorPlan201_active1",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 1,
+          "pddl_plan_length": 2,
+          "total_active_objects_type": {
+            "desklamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active5",
+          "instance_id": "facility_inspection_FloorPlan205_active5",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active1 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active5 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 11,
+      "bundle_total_pddl_plan_length": 22,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 2,
+        "laptop": 2,
+        "lightswitch": 2,
+        "television": 2
+      },
+      "bundle_active_spread": 4,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000214",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active2",
+        "req_facility_inspection_FloorPlan205_active5",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active2",
+          "instance_id": "facility_inspection_FloorPlan201_active2",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 2,
+          "pddl_plan_length": 4,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active5",
+          "instance_id": "facility_inspection_FloorPlan205_active5",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active2 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active5 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 12,
+      "bundle_total_pddl_plan_length": 24,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 3,
+        "laptop": 2,
+        "lightswitch": 2,
+        "television": 2
+      },
+      "bundle_active_spread": 3,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000364",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active3",
+        "req_facility_inspection_FloorPlan205_active5",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active3",
+          "instance_id": "facility_inspection_FloorPlan201_active3",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 3,
+          "pddl_plan_length": 6,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active5",
+          "instance_id": "facility_inspection_FloorPlan205_active5",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active3 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active5 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 13,
+      "bundle_total_pddl_plan_length": 26,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 3,
+        "laptop": 3,
+        "lightswitch": 2,
+        "television": 2
+      },
+      "bundle_active_spread": 2,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000514",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active4",
+        "req_facility_inspection_FloorPlan205_active5",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active4",
+          "instance_id": "facility_inspection_FloorPlan201_active4",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 4,
+          "pddl_plan_length": 8,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active5",
+          "instance_id": "facility_inspection_FloorPlan205_active5",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active4 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active5 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 14,
+      "bundle_total_pddl_plan_length": 28,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 3,
+        "laptop": 3,
+        "lightswitch": 3,
+        "television": 2
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000663",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active5",
+        "req_facility_inspection_FloorPlan205_active5",
+        "req_facility_inspection_FloorPlan210_active4"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active5",
+          "instance_id": "facility_inspection_FloorPlan201_active5",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active5",
+          "instance_id": "facility_inspection_FloorPlan205_active5",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active4",
+          "instance_id": "facility_inspection_FloorPlan210_active4",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 4,
+          "pddl_plan_length": 8,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active5 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active5 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active4 ",
+      "bundle_total_active_objects": 14,
+      "bundle_total_pddl_plan_length": 28,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 3,
+        "laptop": 3,
+        "lightswitch": 3,
+        "television": 2
+      },
+      "bundle_active_spread": 1,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    },
+    {
+      "bundle_id": "req3_facility_inspection_bundle_000664",
+      "request_count": 3,
+      "request_ids": [
+        "req_facility_inspection_FloorPlan201_active5",
+        "req_facility_inspection_FloorPlan205_active5",
+        "req_facility_inspection_FloorPlan210_active5"
+      ],
+      "requests": [
+        {
+          "request_id": "req_facility_inspection_FloorPlan201_active5",
+          "instance_id": "facility_inspection_FloorPlan201_active5",
+          "scene_name": "FloorPlan201",
+          "room_id": "201",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan205_active5",
+          "instance_id": "facility_inspection_FloorPlan205_active5",
+          "scene_name": "FloorPlan205",
+          "room_id": "205",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        },
+        {
+          "request_id": "req_facility_inspection_FloorPlan210_active5",
+          "instance_id": "facility_inspection_FloorPlan210_active5",
+          "scene_name": "FloorPlan210",
+          "room_id": "210",
+          "total_active_objects": 5,
+          "pddl_plan_length": 10,
+          "total_active_objects_type": {
+            "desklamp": 1,
+            "floorlamp": 1,
+            "laptop": 1,
+            "lightswitch": 1,
+            "television": 1
+          }
+        }
+      ],
+      "combined_request_text": "You receive multiple facility inspection requests simultaneously:\nRoom 201 request_id=req_facility_inspection_FloorPlan201_active5 \nRoom 205 request_id=req_facility_inspection_FloorPlan205_active5 \nRoom 210 request_id=req_facility_inspection_FloorPlan210_active5 ",
+      "bundle_total_active_objects": 15,
+      "bundle_total_pddl_plan_length": 30,
+      "bundle_total_active_objects_type": {
+        "desklamp": 3,
+        "floorlamp": 3,
+        "laptop": 3,
+        "lightswitch": 3,
+        "television": 3
+      },
+      "bundle_active_spread": 0,
+      "bundle_active_diversity_score": 0.0,
+      "bundle_distinct_room_count": 3,
+      "bundle_room_repeat_count": 0
+    }
+  ]
+}
